@@ -1,0 +1,45 @@
+{
+  "name": "maven-vue-component-library",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "lint": "run-s lint:*",
+    "lint:eslint": "eslint . --fix --cache",
+    "format": "prettier --write --experimental-cli src/",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/maven-component-lib.cjs",
+  "module": "./dist/maven-component-lib.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/maven-component-lib.js",
+      "require": "./dist/maven-component-lib.cjs"
+    },
+    "./style.css": "./dist/maven-styles.css"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.2.0",
+    "vue": "^3.0.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "yalcSig": "4098084d39e09635407e2aef89e1d0e1"
+}

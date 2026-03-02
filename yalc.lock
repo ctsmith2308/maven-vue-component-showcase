@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "packages": {
+    "vue-component-library": {
+      "signature": "42fca3c94ad5ab723d9c8c3339f0fa0c",
+      "file": true
+    },
+    "maven-vue-component-library": {
+      "signature": "4098084d39e09635407e2aef89e1d0e1",
+      "file": true
+    }
+  }
+}
