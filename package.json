@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^1.15.2",
-    "@tailwindcss/postcss": "^4.2.1",
     "@tailwindcss/vite": "^4.2.1",
     "maven-vue-component-library": "file:.yalc/maven-vue-component-library",
+    "maven-vue-lib": "file:.yalc/maven-vue-lib",
     "nuxt": "^4.3.1",
     "vue": "^3.5.28",
     "vue-router": "^4.6.4"

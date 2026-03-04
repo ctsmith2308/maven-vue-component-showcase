@@ -6,7 +6,11 @@
       "file": true
     },
     "maven-vue-component-library": {
-      "signature": "4098084d39e09635407e2aef89e1d0e1",
+      "signature": "b8749650c4c70df264b8c3fa0f55938e",
+      "file": true
+    },
+    "maven-vue-lib": {
+      "signature": "c5cc917072e702675885ce5cfc3b3c08",
       "file": true
     }
   }

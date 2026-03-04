@@ -1,5 +1,5 @@
 {
-  "name": "maven-vue-component-library",
+  "name": "maven-vue-lib",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -39,5 +39,5 @@
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   },
-  "yalcSig": "b8749650c4c70df264b8c3fa0f55938e"
+  "yalcSig": "c5cc917072e702675885ce5cfc3b3c08"
 }
